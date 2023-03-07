@@ -1,0 +1,8 @@
+name: box-of-bits
+services:
+- environment_slug: python
+  github:
+    branch: prototype
+    deploy_on_push: true
+    repo: LatitudeHigh/BoxOfBits
+  name: box-of-bits

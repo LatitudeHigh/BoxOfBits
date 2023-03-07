@@ -1,0 +1,8 @@
+spec:
+  name: box-of-bits
+  services:
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/LatitudeHigh/BoxOfBits.git
+    name: box-of-bits
